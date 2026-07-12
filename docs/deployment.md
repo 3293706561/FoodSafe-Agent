@@ -22,7 +22,7 @@ git init
 git add .
 git commit -m "Initial FoodSafe Agent portfolio demo"
 git branch -M main
-git remote add origin https://github.com/<your-name>/FoodSafe-Agent.git
+git remote add origin https://github.com/3293706561/FoodSafe-Agent.git
 git push -u origin main
 ```
 

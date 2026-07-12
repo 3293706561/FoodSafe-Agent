@@ -19,7 +19,7 @@ Traceable food-label compliance QA MVP with structured regulation retrieval, ris
 启用 GitHub Pages 后填写：
 
 ```text
-https://<your-github-name>.github.io/<repo-name>/
+https://3293706561.github.io/FoodSafe-Agent/
 ```
 
 ## Topics
@@ -62,5 +62,5 @@ FoodSafe Agent / 食安智问 是一个面向食品企业标签审版与法规�
 如果你已经开通 GitHub Pages，可以把 README 顶部补成：
 
 ```markdown
-[在线演示](https://<your-github-name>.github.io/<repo-name>/) · [部署说明](docs/deployment.md) · [面试讲稿](docs/interview-notes.md)
+[在线演示](https://3293706561.github.io/FoodSafe-Agent/) · [部署说明](docs/deployment.md) · [面试讲稿](docs/interview-notes.md)
 ```

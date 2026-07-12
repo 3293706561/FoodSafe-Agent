@@ -47,7 +47,7 @@ web/index.html
 如果已经启用 GitHub Pages，可以把线上地址放在这里：
 
 ```text
-Demo: https://<your-github-name>.github.io/<repo-name>/
+Demo: https://3293706561.github.io/FoodSafe-Agent/
 ```
 
 网页支持：
