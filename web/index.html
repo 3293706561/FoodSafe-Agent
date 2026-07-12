@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>食安智问 - FoodSafe Agent</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="workspace" aria-label="食安智问演示">
+      <div class="panel query-panel">
+        <div class="brand-row">
+          <span class="stamp">FoodSafe Agent</span>
+          <span class="mode">离线规则 + 检索演示</span>
+        </div>
+        <h1>食安智问</h1>
+        <p class="lead">输入食品标签、配料或法规问题，系统检索样例条款，给出风险判断、整改建议和引用依据。</p>
+
+        <label for="question">待核验问题</label>
+        <textarea id="question" rows="8">预包装饼干没有标生产日期，可以销售吗？</textarea>
+
+        <div class="examples" aria-label="示例问题">
+          <button type="button" data-example="预包装饼干没有标生产日期，可以销售吗？">缺少生产日期</button>
+          <button type="button" data-example="执行标准的年代号能否不写？">执行标准年代号</button>
+          <button type="button" data-example="食品标签字体太小但内容都写了，可以吗？">标签识读性</button>
+          <button type="button" data-example="冷链车应该使用哪种压缩机？">未知问题拒答</button>
+        </div>
+
+        <button class="primary" type="button" id="runCheck">生成合规初筛报告</button>
+      </div>
+
+      <section class="panel report-panel" aria-live="polite">
+        <div class="report-head">
+          <div>
+            <span class="eyebrow">初筛报告</span>
+            <h2 id="riskTitle">等待输入</h2>
+          </div>
+          <span id="riskBadge" class="badge neutral">待分析</span>
+        </div>
+
+        <div class="result-block">
+          <h3>结论</h3>
+          <p id="answer">点击生成后，将在这里展示基于样例法规库的回答。</p>
+        </div>
+
+        <div class="result-block">
+          <h3>整改建议</h3>
+          <ul id="actions"></ul>
+        </div>
+
+        <div class="result-block">
+          <div class="block-head">
+            <h3>引用依据</h3>
+            <label class="inline-filter" for="riskFilter">
+              <span>筛选</span>
+              <select id="riskFilter">
+                <option value="全部">全部</option>
+                <option value="高风险">高风险</option>
+                <option value="需核验">需核验</option>
+                <option value="提示">提示</option>
+              </select>
+            </label>
+          </div>
+          <div id="citations" class="citations"></div>
+        </div>
+
+        <p class="disclaimer">仅用于作品集演示与合规初筛，不构成正式法律或企业合规意见。</p>
+      </section>
+    </section>
+  </main>
+
+  <script src="regulations-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

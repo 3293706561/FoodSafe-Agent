@@ -1,0 +1,242 @@
+[
+  {
+    "id": "Q01",
+    "question": "预包装食品的标签上必须标示哪些内容？",
+    "expected_topic": "标签强制标示事项",
+    "expected_risk": "高风险",
+    "expected_citation": "《食品安全法》第67条、GB 7718-2025第4.2条",
+    "expected_action": "核实标签是否完整包含9项强制标示内容（名称、配料表、净含量、生产者信息、日期、贮存条件、添加剂通用名称、生产许可证编号、产品标准代号）"
+  },
+  {
+    "id": "Q02",
+    "question": "我们产品的配料表需要把食品添加剂展开写吗？复配添加剂怎么标？",
+    "expected_topic": "配料表、添加剂通用名称",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 7718-2025第4.2条/配料表、GB 7718-2025官方问答第13-17条",
+    "expected_action": "检查配料表中添加剂是否标注了通用名称或功能类别+通用名称，复配添加剂是否展开了发挥作用的全部成分"
+  },
+  {
+    "id": "Q03",
+    "question": "产品标签上只写了生产日期和保质期12个月，没写到期日，合规吗？",
+    "expected_topic": "日期标示（双日期制度）",
+    "expected_risk": "高风险",
+    "expected_citation": "GB 7718-2025第4.2条/日期标示、食品标识监督管理办法/日期标示条款",
+    "expected_action": "2027年3月16日起须同时标注生产日期和保质期到期日，需补充到期日标注"
+  },
+  {
+    "id": "Q04",
+    "question": "我们的产品宣称'0糖'，糖含量0.3g/100mL，可以这么标吗？",
+    "expected_topic": "营养声称-无糖",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 28050-2025/营养声称条款",
+    "expected_action": "确认糖含量≤0.5g/100mL，符合'无糖'声称条件；核查营养成分表中糖项标示值是否一致"
+  },
+  {
+    "id": "Q05",
+    "question": "饼干里含有花生酱但没有在标签上提示含花生，会被罚吗？",
+    "expected_topic": "致敏物质强制标示",
+    "expected_risk": "高风险",
+    "expected_citation": "GB 7718-2025附录D、GB 7718-2025官方问答",
+    "expected_action": "2027年3月16日起须对花生等八大类致敏原进行强制标示（加粗/下划线/独立框示），需立即补充致敏提示"
+  },
+  {
+    "id": "Q06",
+    "question": "食品标签上可以写'预防感冒'吗？",
+    "expected_topic": "禁止疾病声称",
+    "expected_risk": "高风险",
+    "expected_citation": "《食品安全法》第71条、食品标识监督管理办法第7条",
+    "expected_action": "立即删除涉及疾病预防、治疗功能的声称，修改为合规表述"
+  },
+  {
+    "id": "Q07",
+    "question": "营养标签只需要标能量、蛋白质、脂肪、碳水化合物和钠吗？",
+    "expected_topic": "营养成分表强制标示（1+6）",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 28050-2025第4.1条",
+    "expected_action": "2027年3月16日起强制标示扩展为1+6（增加饱和脂肪和糖），需更新营养成分表格式"
+  },
+  {
+    "id": "Q08",
+    "question": "我们牛奶产品想标'高钙'，钙含量多少才能标？",
+    "expected_topic": "营养声称-高钙",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 28050-2025/营养声称条款",
+    "expected_action": "液体食品钙含量须≥120mg/100mL（≥15% NRV）才能声称'高钙'，核查实测值是否达标"
+  },
+  {
+    "id": "Q09",
+    "question": "产品包装上写了'零添加防腐剂'，这样标有问题吗？",
+    "expected_topic": "禁止'零添加'用语",
+    "expected_risk": "高风险",
+    "expected_citation": "GB 7718-2025第4.2条/定量标示",
+    "expected_action": "2027年3月16日起'不添加''零添加'用语全面禁止，需替换为合规表述（如标示添加剂含量）"
+  },
+  {
+    "id": "Q10",
+    "question": "生产日期打在包装底部很小的位置，消费者根本找不到，合规吗？",
+    "expected_topic": "日期可识读性",
+    "expected_risk": "高风险",
+    "expected_citation": "食品标识监督管理办法/日期标示条款、GB 7718-2025第4.2条",
+    "expected_action": "日期须在主要展示版面设独立区域，白底黑字，字号≥2.0mm，不在版面时需标明'见包装某部位'指引"
+  },
+  {
+    "id": "Q11",
+    "question": "进口预包装食品需要标产品标准代号吗？",
+    "expected_topic": "产品标准代号",
+    "expected_risk": "提示",
+    "expected_citation": "GB 7718-2025第4.2条/产品标准代号",
+    "expected_action": "进口预包装食品可免于标示产品标准代号，但其他强制标示项仍须满足"
+  },
+  {
+    "id": "Q12",
+    "question": "我们的蛋糕产品还在用脱氢乙酸钠，新标准还可以用吗？",
+    "expected_topic": "添加剂使用范围变更",
+    "expected_risk": "高风险",
+    "expected_citation": "GB 2760-2024附录A",
+    "expected_action": "GB 2760-2024已删除脱氢乙酸在糕点、面包、焙烤食品馅料中的使用许可，须立即更换防腐剂并更新配料表"
+  },
+  {
+    "id": "Q13",
+    "question": "配料表里添加剂用的商品名而不是通用名称，需要改吗？",
+    "expected_topic": "添加剂通用名称标示",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 7718-2025第4.2条、GB 7718-2025官方问答",
+    "expected_action": "须将商品名替换为GB 2760中的通用名称或功能类别+通用名称（或INS编码），商品名不得单独使用"
+  },
+  {
+    "id": "Q14",
+    "question": "我们的产品是纯牛奶，只有一种配料，还需要写配料表吗？",
+    "expected_topic": "配料表标示（单一配料）",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 7718-2025第4.2条/配料表",
+    "expected_action": "2025版新规要求单一配料食品也必须标示配料表，需补充'配料：生乳'等标示"
+  },
+  {
+    "id": "Q15",
+    "question": "标签上宣称'低脂'，脂肪含量3.5g/100g，这样标算合规吗？",
+    "expected_topic": "营养声称-低脂",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 28050-2025/营养声称条款",
+    "expected_action": "固体食品'低脂'要求脂肪≤3g/100g，3.5g/100g不满足条件，须删除'低脂'声称或调整配方"
+  },
+  {
+    "id": "Q16",
+    "question": "食品名称叫'果汁饮料'但实际果汁含量只有5%，合规吗？",
+    "expected_topic": "食品名称真实属性",
+    "expected_risk": "高风险",
+    "expected_citation": "食品标识监督管理办法/食品名称条款、GB 7718-2025第4.2条",
+    "expected_action": "食品名称须反映真实属性，应核查相关产品标准对果汁饮料的最低果汁含量要求（通常≥10%），名称需调整或含量需提升"
+  },
+  {
+    "id": "Q17",
+    "question": "营养成分表的格式有什么具体要求？必须用表格吗？",
+    "expected_topic": "营养成分表格式",
+    "expected_risk": "提示",
+    "expected_citation": "GB 28050-2025/格式条款",
+    "expected_action": "营养成分表须为表格形式，包含营养成分名称、含量值、NRV%三列；须标示每100g(mL)或每份的含量"
+  },
+  {
+    "id": "Q18",
+    "question": "我们用了赤藓糖醇，营养成分表里能量怎么算？",
+    "expected_topic": "糖醇能量换算",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 28050-2025官方问答第(二)条",
+    "expected_action": "赤藓糖醇能量换算系数为0kJ/g，不计入总能量；若标示糖醇含量，须在碳水能量计算中扣除"
+  },
+  {
+    "id": "Q19",
+    "question": "标签上的数字标签内容和实体标签信息不一致，有问题吗？",
+    "expected_topic": "数字标签一致性",
+    "expected_risk": "高风险",
+    "expected_citation": "GB 7718-2025/数字标签条款、《关于实施预包装食品数字标签有关事项的公告》",
+    "expected_action": "数字标签与实体标签内容必须完全一致，须立即核查并修正不一致之处"
+  },
+  {
+    "id": "Q20",
+    "question": "散装食品也需要遵守预包装食品标签通则吗？",
+    "expected_topic": "适用范围",
+    "expected_risk": "提示",
+    "expected_citation": "GB 7718-2025第1条/范围",
+    "expected_action": "GB 7718-2025不适用于散装食品和现制现售食品，散装食品标识要求另行规定"
+  },
+  {
+    "id": "Q21",
+    "question": "标签上标了'特供'字样，需要改吗？",
+    "expected_topic": "标识禁止内容",
+    "expected_risk": "高风险",
+    "expected_citation": "食品标识监督管理办法第7条",
+    "expected_action": "严禁标称'特供''专供''内供'党政机关或军队等，须立即删除"
+  },
+  {
+    "id": "Q22",
+    "question": "配料表里'香精'两个字够吗？还需要写更具体的名称吗？",
+    "expected_topic": "添加剂通用名称标示",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 7718-2025第4.2条、GB 7718-2025官方问答",
+    "expected_action": "'香精'不是通用名称，须标注'食品用香精'或按功能类别+通用名称方式标示，如'增味剂（XXX）'"
+  },
+  {
+    "id": "Q23",
+    "question": "保质期到期日怎么算？按年月日标还是可以只写'保质期至XXXX'？",
+    "expected_topic": "日期标示格式",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 7718-2025第4.2条/日期标示",
+    "expected_action": "2025版要求日期按年-月-日顺序标注，须同时标注生产日期和保质期到期日，不得仅标注保质期月数"
+  },
+  {
+    "id": "Q24",
+    "question": "我想在普通食品包装上写'增强免疫力'，可以吗？",
+    "expected_topic": "禁止保健功能声称",
+    "expected_risk": "高风险",
+    "expected_citation": "食品标识监督管理办法第7条、《食品安全法》第71条",
+    "expected_action": "除保健食品外，普通食品不得声称具有保健功能（如增强免疫力），须立即删除"
+  },
+  {
+    "id": "Q25",
+    "question": "我们的产品是包装饮用水，需要标营养标签吗？",
+    "expected_topic": "营养标签豁免",
+    "expected_risk": "提示",
+    "expected_citation": "GB 28050-2025/豁免条款",
+    "expected_action": "包装饮用水属于营养标签豁免范围，不强制标示营养标签；若自愿标示则须符合标准全部要求"
+  },
+  {
+    "id": "Q26",
+    "question": "配料表里加入了不超过2%的辅料，可以不按递减顺序排吗？",
+    "expected_topic": "配料表排序",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 7718-2025第4.2条/配料表",
+    "expected_action": "加入量≤2%的配料可不按递减顺序排列（可标注'等'），但须在配料表中列出名称"
+  },
+  {
+    "id": "Q27",
+    "question": "生产日期被贴纸覆盖后重新贴了一个新的，允许吗？",
+    "expected_topic": "日期不得加贴补印",
+    "expected_risk": "高风险",
+    "expected_citation": "GB 7718-2025第4.2条/日期标示、食品标识监督管理办法/日期标示条款",
+    "expected_action": "生产日期和保质期到期日不得加贴、补印或篡改，须以原方式永久性标注"
+  },
+  {
+    "id": "Q28",
+    "question": "标签上只写了厂家名字，没写地址和联系方式，可以吗？",
+    "expected_topic": "生产者信息标示",
+    "expected_risk": "高风险",
+    "expected_citation": "《食品安全法》第67条第(三)项、GB 7718-2025第4.2条",
+    "expected_action": "须同时标注生产者的名称、地址和联系方式，缺失任一项均属标签不符合规定"
+  },
+  {
+    "id": "Q29",
+    "question": "食品标签需要专人审核吗？法规有这个要求吗？",
+    "expected_topic": "责任主体与专人审核",
+    "expected_risk": "提示",
+    "expected_citation": "食品标识监督管理办法第5条",
+    "expected_action": "2027年3月16日起企业须明确具体机构或人员对食品标识进行审核把关，建议立即建立标签审核制度"
+  },
+  {
+    "id": "Q30",
+    "question": "产品标了'0卡'，但每100mL能量是20kJ，有问题吗？",
+    "expected_topic": "营养声称-0能量",
+    "expected_risk": "需核验",
+    "expected_citation": "GB 28050-2025/营养声称条款",
+    "expected_action": "液体食品'0卡'声称要求能量≤17kJ/100mL，20kJ超过阈值，须删除'0卡'声称或调整配方降低能量"
+  }
+]
